@@ -1,7 +1,7 @@
 # Git Project
 
 The exercises to get good level in Git
-# Bundle 1
+
 # Exercice 1
 
 ```bash
@@ -115,72 +115,4 @@ PS C:\Users\DONDOU\Desktop\Git_Exercise> git push origin --delete test
 To https://github.com/dondou21/Git-exercises.git
  - [deleted]         test
 PS C:\Users\DONDOU\Desktop\Git_Exercise> 
-```
-
-
-# Bundle 2
-
-# Exercise 1
-
-``` bash
-
-## Git initialization
-
-PS C:\Users\DONDOU\Desktop\Git-exercises> git init 
-Reinitialized existing Git repository in C:/Users/DONDOU/Desktop/Git-exercises/.git/
-PS C:\Users\DONDOU\Desktop\Git-exercises> git status
-On branch main
-Your branch is up to date with 'origin/main'.
-nothing to commit, working tree clean
-
-## Creating the branch ft/bundle-2 & services.html page
-
-PS C:\Users\DONDOU\Desktop\Git-exercises> git checkout -b ft/bundle-2
-Switched to a new branch 'ft/bundle-2'
-On branch ft/bundle-2
-nothing to commit, working tree clean
-On branch ft/bundle-2
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        services.html
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-## Committing and pushing the changes 
-
-PS C:\Users\DONDOU\Desktop\Git-exercises> git add services.html 
-PS C:\Users\DONDOU\Desktop\Git-exercises> git commit -m 'Creation of services.html'
-[ft/bundle-2 faa6553] Creation of services.html
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 services.html
-PS C:\Users\DONDOU\Desktop\Git-exercises> git status
-On branch ft/bundle-2
-nothing to commit, working tree clean
-PS C:\Users\DONDOU\Desktop\Git-exercises> git push 
-fatal: The current branch ft/bundle-2 has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin ft/bundle-2
-
-To have this happen automatically for branches without a tracking
-upstream, see 'push.autoSetupRemote' in 'git help config'.
-
-## Creating for the pull request
-
-PS C:\Users\DONDOU\Desktop\Git-exercises> git push --set-upstream origin ft/bundle-2
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 289 bytes | 3.00 KiB/s, done.
-Total 3 (delta 0), reused 1 (delta 0), pack-reused 0 (from 0)
-remote: 
-remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
-remote:      https://github.com/dondou21/Git-exercises/pull/new/ft/bundle-2
-remote:
-To https://github.com/dondou21/Git-exercises.git
- * [new branch]      ft/bundle-2 -> ft/bundle-2
-branch 'ft/bundle-2' set up to track 'origin/ft/bundle-2'.
-PS C:\Users\DONDOU\Desktop\Git-exercises> 
-
 ```
